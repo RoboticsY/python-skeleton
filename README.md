@@ -2,7 +2,7 @@
 
 This is skeleton project for python.
 
-Use [poetry](https://python-poetry.org/) for package management 
+Use [poetry](https://python-poetry.org/) for package management
 and [Pyenv](https://github.com/pyenv/pyenv) for python version management.
 
 ## Installation
@@ -31,6 +31,17 @@ poetry run pytest
 pyenv local x.x.x
 ```
 
+## VSCode Plugin
+
+- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+- [Flake8](https://marketplace.visualstudio.com/items?itemName=ms-python.flake8)
+- [black](https://marketplace.visualstudio.com/items?itemName=ms-python.black-formatter)
+- [isort](https://marketplace.visualstudio.com/items?itemName=ms-python.isort)
+
 ## License
+
 [MIT](https://choosealicense.com/licenses/mit/)
+
+```
+
 ```
