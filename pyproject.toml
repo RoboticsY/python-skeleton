@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "python-skeleton"
+version = "0.1.0"
+description = ""
+authors = ["RoboticsY <robotics.yuta@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+black = "^23.10.1"
+flake8 = "^6.1.0"
+isort = "^5.12.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
