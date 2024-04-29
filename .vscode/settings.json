@@ -1,11 +1,8 @@
 {
-    "editor.codeActionsOnSave": {
-        "source.organizeImports": true
-    },
-    "editor.formatOnSave": true,
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter"
-    },
-    "flake8.args": ["--config=.flake8"],
-    "isort.args":["--profile", "black"]
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "ruff.organizeImports": false,
+  "ruff.format.args": ["--config=pyproject.toml"]
 }

@@ -34,9 +34,7 @@ pyenv local x.x.x
 ## VSCode Plugin
 
 - [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
-- [Flake8](https://marketplace.visualstudio.com/items?itemName=ms-python.flake8)
-- [black](https://marketplace.visualstudio.com/items?itemName=ms-python.black-formatter)
-- [isort](https://marketplace.visualstudio.com/items?itemName=ms-python.isort)
+- [Ruff](https://marketplace.visualstudio.com/items?itemName=arjunrao87.vscode-ruff)
 
 ## License
 
