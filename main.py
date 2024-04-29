@@ -1,15 +1,20 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import logging
 import sys
-import typing
 
 
-def main(argv: typing.List[str] = None):
+def main(argv: list[str] | None = None) -> None:
+    """Main function.
+
+    Args:
+        argv (list[str], optional): コマンドライン引数. Defaults to None.
+    """
     if argv is None:
-        print("Hello World!")
+        logging.info("Hello World!")
     else:
-        print("Arg: " + argv[0])
+        logging.info("Arg: " + argv[0])
 
 
 if __name__ == "__main__":
